@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./index.css" />
+
+</head>
+
+<body>
+    <h1>Pomodoro</h1>
+    <input type="button" class="button" value="Settings" onclick="openSettings()">
+    <div class="timer-container">
+        <div class="button-container">
+            <input type="button" class="button" value="Pomodoro" onclick="setTimer('pomodoro')">
+            <input type="button" class="button" value="Short Break" onclick="setTimer('short')">
+            <input type="button" class="button" value="Long Break" onclick="setTimer('long')">
+        </div>
+        <h1 id="timer"></h1>
+        <div class="button-container">
+            <input type="button" class="button" value="START" onclick="startTimer()">
+            <input type="button" class="button" value="STOP" onclick="stopTimer()">
+            <input type="button" class="button" value="RESET" onclick="resetTimer()">
+        </div>
+    </div>
+    <div class="settings">
+        <input type="button" value="-" onclick="minus()">
+        <p id="duration"></p>
+        <input type="button" value="+" onclick="add()">
+    </div>
+
+    <div class="dialog" id="dialog">
+        <div class="dialog-bg" onclick="hideSettings()"></div>
+        <div class="dialog-content-container">
+            <div class="dialog-content">
+                <h1>Timer Settings</h1>
+                <div>
+                    <p>Timer (minutes)</p>
+                    <div class="timer-duration-setting">
+                        <div>
+                            <p>Pomodoro</p>
+                            <input id="pomodoro-duration" type="number">
+                        </div>
+                        <div>
+                            <p>Short</p>
+                            <input id="short-duration" type="number">
+                        </div>
+                        <div>
+                            <p>Long</p>
+                            <input id="long-duration" type="number">
+                        </div>
+                    </div>
+                </div>
+
+                <input id="save-button" type="button" value="Save" onclick="save()">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
