@@ -1,0 +1,55 @@
+body {
+    margin: 0 !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.global-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .title {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.city-picker {
+    width: 300px;
+}
