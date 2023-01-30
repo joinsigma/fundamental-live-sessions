@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <!-- FIXED -->
+    <div class="background">
+        <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+    </div>
+
+    <div class="global-container">
+        <nav>
+            <span class="title">My Weather App</span>
+        </nav>
+
+        <!-- Content -->
+        <div class="container">
+            <div class="user-input-container">
+                <label for="city">Pick a city:</label>
+                <select id="city" class="city-picker" name="city">
+                    <!-- <option value="Kuala Lumpur">Kuala Lumpur</option>
+                    <option value="Petaling Jaya">Petaling Jaya</option>
+                    <option value="Ipoh">Ipoh</option>
+                    <option value="Kuching">Kuching</option>
+                    <option value="Alor Setar">Alor Setar</option> -->
+                </select>
+            </div>
+
+            <div class="city-information-container">
+                <div class="data-container">
+                    <p>Current Weather</p>
+                    <p id="time"></p>
+                </div>
+                <div class="weather-info">
+                    <div style="width: 50%;">
+                        <img id="icon" src="http://cdn.weatherapi.com/weather/64x64/night/116.png" />
+                    </div>
+                    <p id="realfeel-temp" style="width: 50%"></p>
+                </div>
+                <p id="condition-data"></p>
+                <div class="weather-info">
+                    <div class="grouped-data">
+                        <div class="data-container">
+                            <p>Wind Gusts</p>
+                            <p id="gusts-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>Humidity</p>
+                            <p id="humidity-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>Precipitation</p>
+                            <p id="precipitation-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>Wind Direction</p>
+                            <p id="wind-dir-data"></p>
+                        </div>
+                    </div>
+                    <div class="grouped-data">
+                        <div class="data-container">
+                            <p>Pressure</p>
+                            <p id="pressure-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>Wind Speed</p>
+                            <p id="wind-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>Visibility</p>
+                            <p id="visibility-data"></p>
+                        </div>
+                        <div class="data-container">
+                            <p>UV</p>
+                            <p id="uv-data"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
