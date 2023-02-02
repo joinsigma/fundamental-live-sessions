@@ -1,0 +1,71 @@
+/* ---Header---- */
+li img {
+    width: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    text-decoration:none;
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-in-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.grid-menu{
+    width: 30px;
+}
+
+/* ------- Search Section -------- */
+
+main{
+    /* ---- Add Flexbox codes here---- */
+    height: 600px;
+}
+
+.google-text{
+    /* ---- Add Flexbox codes here---- */
+    height:92px; 
+    width: 272px;
+}
+
+.search-bar{
+    /* ---- Add Flexbox codes here---- */
+    height: 45px;
+    border: solid;
+}
+
+input[type=text]{
+    /* --- Uncomment these to see what happens to the search box--- */
+    /* border: transparent; */
+    /* outline: none; */
+}
+
+.search-bar svg{
+    width: 30px;
+}
+
+.magnify{
+
+}
+
+.mic{
+
+}
+
+/* --- Include the CSS designs for remaining buttons + "Google offered in: Bahasa Melayu" here */
+
