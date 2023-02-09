@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+}
+
+.main-container{
+    width: 500px;
+    height: 350px;
+    background-color: gainsboro;
+    margin-top: 100px;
+}
+
+.container1{
+
+}
+
+.container2{
+
+}
+
+.container2>input{
+
+}
+.container3{
+
+}
+
+.back {
+    background-color: blue;
+}
+
+.continue{
+    background-color: green;
+}
+
+.container3 button{
+
+}
