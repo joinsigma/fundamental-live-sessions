@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+}
+
+.main-container{
+    width: 500px;
+    height: 350px;
+    background-color: gainsboro;
+    margin-top: 100px;
+}
+
+.container1{
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 100;
+    color: aliceblue;
+    /* background-image: url("https://images7.alphacoders.com/411/411820.jpg"); */
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.container2>input{
+    margin: 10px 20px;
+    border: none;
+    padding: 10px;
+    font-size: larger;
+    color: beige;
+    border-radius: 5px ;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.back {
+    background-color: blue;
+}
+
+.continue{
+    background-color: green;
+}
+
+.reset{
+    background-color: orange;
+}
+
+/* .btn {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+} */
+
+.container3 button{
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+}
