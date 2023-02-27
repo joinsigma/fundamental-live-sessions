@@ -11,13 +11,7 @@
     },
     "action":{
         "default_title":"Tab Manager",
-        "default_popup":"./popup.html",
-        "default_icons":{
-            "16":"./assets/tab-icon-32.png",
-            "32":"./assets/tab-icon-32.png",
-            "48":"./assets/tab-icon-32.png",
-            "128":"./assets/tab-icon-32.png"
-        }
+        "default_popup":"./popup.html"
     },
     "host_permissions": [
         "http://*/*",
@@ -27,11 +21,7 @@
         "newtab":"./openTab.html"
     },
     "permissions":[
-        "storage", 
-                "declarativeContent", 
-                "activeTab", 
-                "scripting",
-                "tabs"
+        "activeTab"
     ]
     
 }
