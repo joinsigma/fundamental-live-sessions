@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="main-container active blue green">
+        <div class="container1">
+            Part 1
+        </div>
+
+        <div class="step">
+            <input type="text" placeholder="Full Name">
+        </div>
+    
+        <div class="container3">
+            <button class="back btn" id="back-button-1" onclick="backButton()">Back</button>
+            <button class="continue btn" onclick="nextButton()">Next</button>
+          </div>
+          
+    </div>
+
+    <div class="main-container">
+        <div class="container1">
+            Part 2
+        </div>
+
+        <div class="step">
+            <input type="email" placeholder="Email">
+            <input type="phone" placeholder="Phone">
+            <input type="text" placeholder="Zip Code">
+        </div>
+    
+        <div class="container3">
+            <button class="back btn" onclick="backButton()">Back</button>
+            <button class="continue btn" onclick="nextButton()">Next</button>
+          </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container1">
+            Part 3
+        </div>
+
+        <div class="step">
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+    
+        <div class="container3">
+            <button class="back btn" onclick="backButton()">Back</button>
+            <button class="continue btn" id="next-button-3" onclick="nextButton()">Next</button>
+          </div>
+    </div>
+</body>
+</html>
