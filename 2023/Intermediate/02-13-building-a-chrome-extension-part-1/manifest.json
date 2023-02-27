@@ -1,0 +1,37 @@
+{
+    "name":"My First Chrome Extension",
+    "description": "A tab manager extension",
+    "version": "1.0",
+    "manifest_version":3,
+    "icons":{
+        "16": "./assets/tab-icon-32.png",
+        "32": "./assets/tab-icon-32.png",
+        "48": "./assets/tab-icon-32.png",
+        "128": "./assets/tab-icon-32.png"
+    },
+    "action":{
+        "default_title":"Tab Manager",
+        "default_popup":"./popup.html",
+        "default_icons":{
+            "16":"./assets/tab-icon-32.png",
+            "32":"./assets/tab-icon-32.png",
+            "48":"./assets/tab-icon-32.png",
+            "128":"./assets/tab-icon-32.png"
+        }
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "chrome_url_overrides":{
+        "newtab":"./openTab.html"
+    },
+    "permissions":[
+        "storage", 
+                "declarativeContent", 
+                "activeTab", 
+                "scripting",
+                "tabs"
+    ]
+    
+}
