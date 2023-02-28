@@ -4,11 +4,14 @@
 const props = defineProps(["title", "prefix"])
 const content = props.prefix + props.title
 
+// Emits
+const emits = defineEmits(["buttonClicked", "hover"])
+
 </script>
 
+<!--Template syntax-->
 <template>
-    <!--Template syntax-->
-    <button>{{ content }}</button>
+    <button @click="emits('buttonClicked')" @mouseover="emits('hover')">{{ content }}</button>
 </template>
 
 <style>
