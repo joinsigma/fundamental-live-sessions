@@ -1,0 +1,161 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid lightgrey;
+}
+.left-menu img{
+    align-items: center;
+justify-content: center;
+}
+
+#search-icon {
+    height: 18px;
+    width: 18px;
+}
+
+button{
+    color: #6e6d7a;
+    font-size: 18px;    
+    font-weight: 600;
+    border: none;
+    padding: 10px 16px;
+    
+    height: 80px;
+    background-color: white;
+}
+
+.left-menu{
+    
+    /* display: flex;     */
+    justify-content: space-evenly ;
+}
+.right-menu{
+    /* display: flex   ; */
+    
+    justify-content: space-evenly;
+}
+
+#sign-up-button{
+    height: 60px;
+    /* font-size: 14px; */
+    padding: 10px 16px;
+    color: white;
+    /* box-sizing: border-box; */
+    background-color: #ea4c89;
+    border-radius: 8px;
+}
+
+.section-hero{
+    display: flex;
+    
+    flex: 1;
+    flex-direction: column;
+    height: 560px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* border: 3px solid black; */
+    /* background-color: darkgray; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+.hero-category ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero-category ul li{
+    background-color: #00000080 ;
+    margin: 10px;
+    /* opacity: 0.1 ; */
+    color: white;
+    border-radius: 50px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text-words{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-words h1{
+    line-height: 1px;
+    font-size: 50px;
+    margin: 13x;
+}
+
+.hero-suggestion ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-suggestion ul li{
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+    padding :10px 15px;
+    border-radius: 30px;
+}
+
+.hero-suggestion ul li#trending-search{
+    border:none;
+    font-size: 13px;
+    /* background-color: ; */
+}
+/* .hero-vid{
+    position: absolute;
+    
+} */
+
+#search-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    width:50%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#search-box{
+    width: 100%;
+    border: transparent;
+    outline: none;
+    padding: 0 10px;
+
+}
+
+.fa-magnifying-glass{
+    
+}
