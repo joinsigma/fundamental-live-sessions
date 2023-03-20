@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout API</title>
+    <link rel="stylesheet" href="./api_style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3271/3271136.png">
+</head>
+<body>
+    <h1 class="title">Workout API</h1>
+
+    <div class="select-options">
+        <label for="type-select">Select Type</label>
+        <select name="type-select" id="type-select"></select>
+    </div>
+
+    <div class="select-options">
+        <label for="muscle-select">Select Muscle</label>
+        <select name="muscle-select" id="muscle-select"></select>
+    </div>
+
+    <div class="select-options">
+        <label for="difficulty-select">Select Difficulty</label>
+        <select name="difficulty-select" id="difficulty-select"></select>
+    </div>
+
+    <button class="exercise-button" id="fetch-exercise" onclick="displayExercises()">Fetch Exercise</button>
+    <button class="exercise-button" id="add-to-favourites" onclick="addToFavourites()">Add To Favourites</button>
+    <script src="./api_script.js"></script>
+</body>
+</html>
