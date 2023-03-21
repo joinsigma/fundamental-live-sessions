@@ -5,4 +5,5 @@
 - Storing the options and working with API to fetch the data with specified input parameters
 
 ### Homework tasks
-- Storing the users selected options into a favourite collection
+- Create a UI (User Interface) Menu to show users the returned workout exercise results 
+- Storing the users selected exercise options into a favorite collection (array of objects), which will be needed to combine with our timer next week
