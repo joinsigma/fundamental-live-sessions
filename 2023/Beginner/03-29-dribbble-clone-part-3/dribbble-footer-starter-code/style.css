@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    /* background: #fafafb; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #ffd166;
+    /* align-items: center; */
+}
+
+/* -----------empty placeholder------------ */
+.placeholder {
+    width: 100%;
+    height: 65vh;
+    
+}
+#p-one{
+   background: #118ab2; 
+}
+#p-two{
+   background: #06d6a0; 
+}
+#p-three{
+    /* position: relative; */
+   background: #ffd166; 
+}
+
+/* ---------back to top button----------- */
+
+.back-to-top{
+
+}
+
+.back-to-top a img{
+    opacity: 0.45;
+    /* margin: 20px; */
+}
+
+.back-to-top a:hover img{
+opacity: 0.75;
+}
+
+
+/* ---------footer section---------------- */
+footer{
+    margin: 0;
+    padding: 0px;
+    /* background: #fafafc; */
+    background: #fafafb;
+    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: 1440px; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.footer-container{
+    margin: 20px 70px 0 ;
+    /* border: 1px dotted lightblue; */
+    display: flex;
+    max-width: 100vw;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    padding: 72px 0px;
+    border-bottom: 1px solid #e7e7e9;
+    
+}
+.company-info   {
+    width: 20%;
+    /* border: 1px solid pink; */
+    /* margin: 0 30px; */
+    /* flex: 1; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.dribble-info p{
+    width: 85%;
+}
+
+
+/* --------- redirection -------------- */
+.redirection{
+border: 1px solid red;
+background-color: pink;
+flex: 1;
+}
+.direction-column{
+
+}
+
+.direction-column h3{
+ 
+
+}
+.direction-column ul{
+  
+}
+
+.direction-column ul li{
+   
+}
+
+
+
+
+/*--------------- company info------------- */
+.dribble-icon svg{
+  
+}
+
+/* ------social media icons------------ */
+.sm-icons{
+
+}
+
+.sm-icons a{
+   
+    
+}
+.sm-icons a svg{
+}
+
+/*-----Footer credit part ----------*/
+.footer-credit{
+}
+
+.credit-right{
+  
+}
+
+.credit-right p span{
+  
+}
+.credit-right img{
+
+}
